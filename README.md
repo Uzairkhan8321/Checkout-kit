@@ -4,7 +4,7 @@ Payment form components for React, plus a small renderer that builds a checkout 
 
 Demo only. It doesn't talk to a payment processor, and no real card numbers should be entered.
 
-**Live demo:** [add your link after deploying]
+**Live demo:** https://checkout-kit-seven.vercel.app/
 
 ## Why I built this
 
