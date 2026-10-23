@@ -1,0 +1,57 @@
+/* Design tokens. Components only read these variables, so theming means
+   overriding variables, not editing component CSS. */
+:root {
+  --ck-font: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --ck-color-bg: #ffffff;
+  --ck-color-surface: #f6f7f9;
+  --ck-color-text: #1a1f2b;
+  --ck-color-text-muted: #5b6475;
+  --ck-color-border: #8a93a6;
+  --ck-color-border-subtle: #d5d9e2;
+  --ck-color-primary: #0a58ca;
+  --ck-color-primary-hover: #084298;
+  --ck-color-on-primary: #ffffff;
+  --ck-color-focus: #0a58ca;
+  --ck-color-error: #b42318;
+  --ck-color-error-bg: #fef3f2;
+  --ck-color-success: #067647;
+  --ck-color-success-bg: #ecfdf3;
+  --ck-color-warning: #8a4b00;
+  --ck-color-warning-bg: #fffaeb;
+  --ck-color-info: #0a58ca;
+  --ck-color-info-bg: #eff6ff;
+
+  --ck-space-1: 4px;
+  --ck-space-2: 8px;
+  --ck-space-3: 12px;
+  --ck-space-4: 16px;
+  --ck-space-5: 24px;
+  --ck-space-6: 32px;
+
+  --ck-radius: 8px;
+  --ck-target-min: 44px; /* minimum touch target */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ck-color-bg: #0f1420;
+    --ck-color-surface: #171d2c;
+    --ck-color-text: #eef1f7;
+    --ck-color-text-muted: #a4adc0;
+    --ck-color-border: #7d879c;
+    --ck-color-border-subtle: #2c3447;
+    --ck-color-primary: #6ea8ff;
+    --ck-color-primary-hover: #93bcff;
+    --ck-color-on-primary: #0b1220;
+    --ck-color-focus: #93bcff;
+    --ck-color-error: #ff8f85;
+    --ck-color-error-bg: #3a1613;
+    --ck-color-success: #5fd39a;
+    --ck-color-success-bg: #0f2a1d;
+    --ck-color-warning: #f5c26b;
+    --ck-color-warning-bg: #302308;
+    --ck-color-info: #8dbcff;
+    --ck-color-info-bg: #12233f;
+  }
+}
