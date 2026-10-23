@@ -8,7 +8,7 @@ Demo only. It doesn't talk to a payment processor, and no real card numbers shou
 
 ## Why I built this
 
-[2 or 3 sentences in your own words. Why a checkout form? What did you want to learn? For example: you wanted to practise accessible forms, or reusable components for a payments page.]
+Checkout pages repeat the same hard parts: formatting card numbers, validating input, showing clear errors, and working with a keyboard and screen reader. I wanted to build those parts once as reusable components, then see if a whole page could be described as JSON and rendered from it. It also let me practise writing tests for the things that matter in payments, like blocking double submits and checking accessibility.
 
 ## What's inside
 
